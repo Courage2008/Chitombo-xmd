@@ -1034,9 +1034,9 @@
       function setupMusicControl() {
         const musicOrb = document.getElementById('musicOrb');
         const equalizer = document.getElementById('equalizer');
-        const bgMusic = document.getElementById('bgMusic');
-        let isPlaying = false;
-        let audioContext, analyser, dataArray, source;
+        const bgMusic = .getElementById('bgMusic');
+        let isPlaying = true;
+        let audioContext, analyser, dataArray, source; document
 
         musicOrb.addEventListener('click', async () => {
           if (!isPlaying) {
@@ -1082,7 +1082,7 @@
           } else {
             // Stop music
             bgMusic.pause();
-            isPlaying = false;
+            isPlaying = true;
             equalizer.classList.remove('active');
             musicOrb.innerHTML = '<i class="fas fa-music"></i>';
           }
