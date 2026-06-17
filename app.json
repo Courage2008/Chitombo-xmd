@@ -1,13 +1,13 @@
 {
-  "name": "KIRA-MD",
-  "description": "KIRA-MD WhatsApp bot made by ArslanMD official",
+  "name": "Chitombo-xmd",
+  "description": "Chitombo-xmd WhatsApp bot made by Courage official",
   "logo": "https://n.uguu.se/BlGoHUJU.jpg",
-  "keywords": ["bot","KIRA-MD","Arslan-MD"],
+  "keywords": ["bot","Chitombo-xmd"],
   "success_url": "/",
 
   "env": {
     "SESSION_ID": {
-        "description": "Put the Kira-MD session-id here.",
+        "description": "Put the Chitombo-xmd session-id here.",
         "required": true
     }
 },
